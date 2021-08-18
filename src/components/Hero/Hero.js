@@ -12,7 +12,11 @@ const Hero = (props) => (
         My personal Portfolio
       </SectionTitle>
       <SectionText>
-        Front end developer specialising in JavaScript and React.
+      A passionate FrontEnd developer seeking a career in the IT industry. 
+      My studies have helped me to gain relevant technical skills in the IT industry, 
+      and my working experience has helped me to extend my soft skills in multitasking, 
+      problem-solving, and communication. 
+      I have the full capability to investigate programs quickly and solve them professionally. 
       </SectionText>
       <Button onClick={()=> window.location = "#projects"}>Learn More</Button>
     </LeftSection>

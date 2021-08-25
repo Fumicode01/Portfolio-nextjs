@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -12,32 +12,50 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            React.js
+          React, React Hooks, Redux, <br />Styled-Components, Next.js, Javascripts(ES6+), Material UI, HTML5, CSS3, Sass, Less, Bootstrap, Grid, Flexbox, Responsive Web Design, Npm, Yarn, Webpack, ESlint, WordPress
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
         <ListContainer>
           <ListTitle>Back-End/DB</ListTitle>
           <ListParagraph>
-            Node
-            Express.js
-            Python
-            Django
+          Node.js, Express, Python, Django
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
+        <ListContainer>
+          <ListTitle>Databases</ListTitle>
+          <ListParagraph>
+            MongoDB, PostgreSQL, MySQL, FireBase
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Methodologies</ListTitle>
+          <ListParagraph>
+           Agile, Scrum, Kanban, TDD
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Testing</ListTitle>
+          <ListParagraph>
+            Jest
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
         <ListContainer>
           <ListTitle>Others</ListTitle>
           <ListParagraph>
-            Git GitHub Jira 
+            AWS, RESTful API, Google APIs, JSON, Swagger, Postman, JWT, Oauth, Git, GitHub, BitBucket, Slack, Docker, localStorage, SessionStorage, Cookies
           </ListParagraph>
         </ListContainer>
       </ListItem>

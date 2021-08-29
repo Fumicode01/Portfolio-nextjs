@@ -1,6 +1,11 @@
 
 import styled from 'styled-components'
 
+export const JobTitle = styled.div`
+  font-size:35px;
+
+`
+
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;

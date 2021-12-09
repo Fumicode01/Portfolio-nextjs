@@ -15,15 +15,15 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-          React, React Hooks, Redux, <br />Styled-Components, Next.js, Javascripts(ES6+), Material UI, HTML5, CSS3, Sass, Less, Bootstrap, Grid, Flexbox, Responsive Web Design, Npm, Yarn, Webpack, ESlint, WordPress
+          React, React Hooks, Redux, Angular<br />Styled-Components, Next.js, TypeScript, Javascripts(ES6+), Material UI, HTML5, CSS3, Sass, Less, Bootstrap, Grid, Flexbox, Responsive Web Design, Npm, Yarn, Webpack, ESlint, WordPress
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <ListContainer>
-          <ListTitle>Back-End/DB</ListTitle>
+          <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-          Node.js, Express, Python, Django
+          Node.js, Express, Python, Django, Java, SpringBoot
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,7 +31,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Databases</ListTitle>
           <ListParagraph>
-            MongoDB, PostgreSQL, MySQL, FireBase
+            MongoDB, PostgreSQL, MySQL, GCP
           </ListParagraph>
         </ListContainer>
       </ListItem>
